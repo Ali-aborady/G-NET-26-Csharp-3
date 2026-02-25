@@ -86,6 +86,39 @@
             //Console.WriteLine(x2);
             #endregion
 
+            #region Q8: Fix this to avoid exceptions and print -1 if conversion isn’t possible ?
+            //=========================================================
+            //object o = 10;
+            //long x = o;
+            //Console.WriteLine(x);
+            //=========================================================
+
+            //object obj = "10a";
+            //long x1 = 0;
+            //if(obj is int || obj is long)
+            //{
+            //   x1 = Convert.ToInt32(obj);
+            //}
+            //else 
+            //{
+            //    x1 = -1;
+            //}
+            //Console.WriteLine(x1);
+
+            ////Another solution 
+
+            //object o = 10;
+            //long x = -1;    //default value of exception
+
+            //if (o is int || o is long || o is short || o is byte || o is uint || o is ulong || o is ushort || o is sbyte)
+            //{
+            //    x = Convert.ToInt32(o);
+            //}
+
+            //Console.WriteLine(x);
+
+            #endregion
+
 
         }
     }
