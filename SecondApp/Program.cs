@@ -140,6 +140,17 @@
             // So length gets 0
             #endregion
 
+            #region Q11: What’s wrong with this “safe” code and how can we solve it ?
+            //=========================================================
+            //string? s = null;
+            //int x = int.Parse(s ?? "0");
+            //Console.WriteLine(x);   // print 0
+            //=========================================================
+
+            // s ?? "0" returns "0" when s is null
+            // int.Parse("0") returns 0
+            #endregion
+
 
         }
     }
