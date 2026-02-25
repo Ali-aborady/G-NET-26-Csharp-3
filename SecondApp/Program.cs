@@ -64,6 +64,16 @@
             //}
             #endregion
 
+            #region Q6: What will this print and explain why ?
+            //=========================================================
+            //object o = 10;
+            //int a = (int)o; //UnBoxing , convert object back to int 
+            //Console.WriteLine(a + 1);  // print 11
+            //=========================================================
+
+            // Boxing stored int in object . Un boxing retrives it
+            #endregion
+
         }
     }
 }
