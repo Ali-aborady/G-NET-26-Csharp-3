@@ -151,6 +151,16 @@
             // int.Parse("0") returns 0
             #endregion
 
+            #region Q12: What happens here and if there is a problem, handle it
+            //=========================================================
+            //string? s = null;
+            //Console.WriteLine(s!.Length);    ! suppresses warning, but will crash"NullReferenceException"
+            //=========================================================
+
+            //string? s = null;
+            //Console.WriteLine(s?.Length??0);
+            #endregion
+
 
         }
     }
