@@ -51,6 +51,19 @@
             // string s contain letter can't br convert to int
             #endregion
 
+            #region Q5: Complete the code from the previous question so it prints Invalid if conversion into int fails, otherwise prints the number
+
+            //string s = "12a";
+            //if (int.TryParse(s,out int result ))
+            //{
+            //    Console.WriteLine($"Number:{result}");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("Invalid Formating");
+            //}
+            #endregion
+
         }
     }
 }
