@@ -28,6 +28,19 @@
             //double d2 = (double)n / 2;
             //Console.WriteLine(d2);
             #endregion
+
+            #region Q3:You read a number from user input .. Write the correct line to get age as int.
+            //Console.WriteLine("Enter your age:");
+            //int age = int.Parse(Console.ReadLine());
+
+            //// Another solution
+
+            //int age;
+            //Console.WriteLine("Enter Your age:");
+            //if (int.TryParse(Console.ReadLine(), out age))
+            //    Console.WriteLine($"AGE : {age}");
+            #endregion
+
         }
     }
 }
