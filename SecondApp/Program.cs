@@ -183,6 +183,14 @@
             //=========================================================
             #endregion
 
+            #region Q15:Complete the line to print "Guest" when user is null,otherwise print the user name in uppercase:
+            //=========================================================
+            //string? user = null;
+            //=========================================================
+            string? user1 = null;
+            Console.WriteLine(user1?.ToUpper() ?? "Guest");
+            #endregion
+
 
 
         }
