@@ -119,6 +119,17 @@
 
             #endregion
 
+            #region Q9: What will this print and explain why ?
+            //=========================================================
+            //string? name = null;
+            //Console.WriteLine(name?.Length);
+            //=========================================================
+            // ? is null-conditional operator
+            // If name is null, it returns null instead of throwing exception
+            // Console.WriteLine receives null, which prints nothing
+            #endregion
+
+
 
         }
     }
