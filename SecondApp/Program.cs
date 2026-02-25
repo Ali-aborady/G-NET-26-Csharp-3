@@ -129,6 +129,16 @@
             // Console.WriteLine receives null, which prints nothing
             #endregion
 
+            #region Q10: What will this print and explain the process?
+            //=========================================================
+            //string? name2 = null;
+            //int length = name2?.Length ?? 0;
+            //=========================================================
+
+            // name2 ?.Length returns null (since name2 is null)
+            // ?? is null-coalescing operator - returns right side if left is null
+            // So length gets 0
+            #endregion
 
 
         }
