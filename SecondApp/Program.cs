@@ -41,6 +41,16 @@
             //    Console.WriteLine($"AGE : {age}");
             #endregion
 
+            #region Q4: What happens here and why?
+            //=========================================================
+            //string s = "12a";
+            //int x = int.Parse(s);
+            //Console.WriteLine(x);
+            //=========================================================
+            //Throw formating exception
+            // string s contain letter can't br convert to int
+            #endregion
+
         }
     }
 }
