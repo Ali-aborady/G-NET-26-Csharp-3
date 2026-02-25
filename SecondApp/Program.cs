@@ -161,6 +161,17 @@
             //Console.WriteLine(s?.Length??0);
             #endregion
 
+            #region Q13: What will this print?
+            //=========================================================
+            string? s = null;
+            int x = Convert.ToInt32(s);  // Returns 0, doesn't throw exception
+            Console.WriteLine(x);        //print 0
+            //=========================================================
+
+            // Convert.ToInt32(null) returns 0 for null strings  Unlike int.Parse() which throws exception
+
+            #endregion
+
 
         }
     }
