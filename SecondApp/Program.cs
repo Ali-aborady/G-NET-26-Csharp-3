@@ -74,6 +74,19 @@
             // Boxing stored int in object . Un boxing retrives it
             #endregion
 
+            #region Q7: What will this print and explain why and if there is a problem handle it ?
+            //=========================================================
+            //object o = 10;
+            //long x = (long)o;  // throw invalidCastingException
+            //Console.WriteLine(x);
+            //=========================================================
+            //object o2 = 10;
+            //// unbox first to int  "convert  to exact orginal type first" , then implicit to long
+            //long x2 = (int)o2;
+            //Console.WriteLine(x2);
+            #endregion
+
+
         }
     }
 }
